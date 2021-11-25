@@ -1,0 +1,122 @@
+---
+name: Bug
+description: >
+  Thank you for taking the time to help out this project!
+  Click the "Get started" button to file your bug report.
+labels: [bug, help wanted]
+assignees: Elliria
+body:
+  # EXISTING ISSUE
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Has this issue already been reported?
+      description: >
+        "Please [check](https://github.com/Elliria/hello-world/issues)
+        if a bug report already exists for your issue. If there is
+        one, consider contributing to it instead. If there isn't
+        one, check this box and continue filling out this form."
+      options:
+        - label: "I have searched through the existing issues."
+          required: true
+  # CLASSIFICATION
+  - type: dropdown
+    id: classification
+    attributes:
+      label: What type of issue is this?
+      multiple: false
+      options:
+        - Bug
+        - Documentation
+        - Enhancement
+        - Feature (new)
+        - Performance
+        - Question
+        - Usability
+    validations:
+      required: false
+  # REPRODUCIBILITY
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Can this be reproduced?
+      description: null
+      multiple: false
+      options:
+        - Always
+        - Rarely
+        - Sometimes
+        - Unable
+        - Unknown
+    validations:
+      required: false
+  # LINUX DISTRIBUTION
+  - type: textarea
+    id: linux-distribution
+    attributes:
+      label: Which Linux distribution did you use?
+      description: >
+        Provide information about your Linux distribution and its
+        release or version number.
+    validations:
+      required: false
+  # SUMMARY
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary:"
+      description: Provide a brief summary of the issue.
+    validations:
+      required: false
+  # STEPS TO RREPRODUCE
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: What are the steps to reproduce the issue?
+      description: >
+        "Provide the steps that need to be taken to reproduce the
+        behavior. For example:"
+      placeholder: |
+        1. Do this.
+        2. Then do that.
+        3. Then do this other thing.
+    validations:
+      required: false
+  # EXPECTED RESULT
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: "Expected result:"
+      description: Provide a description of what you expected to happen.
+    validations:
+      required: false
+  # ACTUAL RESULT
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: "Actual result:"
+      description: Provide a description of what actually happened.
+    validations:
+      required: false
+  # SCREENSHOT
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: >
+        Include one or more screenshots of the issue, if applicable,
+        by dragging the image file(s) here to help with debugging.
+    validations:
+      required: false
+  # NOTES
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: >
+        Describe any debugging steps you've taken, a workaround you've
+        figured out, or any other information you think we might need,
+        including links or references.
+    validations:
+      required: false
+...
