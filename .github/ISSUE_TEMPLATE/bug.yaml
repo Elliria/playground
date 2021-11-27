@@ -102,13 +102,11 @@ body:
   - type: textarea
     id: verbose-output
     attributes:
-      label: Verbpse output
+      label: Verbose output
       description: "Paste your verbose output here"
-      value: |
-    render: bash
+      render: bash
   validations:
     required: true
-
   # SCREENSHOT
   - type: textarea
     id: screenshot
