@@ -106,7 +106,21 @@ body:
       description: "Paste your verbose output here"
       render: bash
     validations:
-      required: true
+      required: false
+  # VERBOSE OUTPUT2
+  - type: textarea
+    id: verbose-output2
+    attributes:
+      label: Verbose output2
+      description: "Paste your verbose output here:"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: false
   # SCREENSHOT
   - type: textarea
     id: screenshot
