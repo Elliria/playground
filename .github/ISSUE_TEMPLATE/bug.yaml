@@ -98,15 +98,15 @@ body:
       description: Provide a description of what actually happened.
     validations:
       required: false
-  # VERBOSE OUTPUT  
+  # VERBOSE OUTPUT
   - type: textarea
     id: verbose-output
     attributes:
       label: Verbose output
       description: "Paste your verbose output here"
       render: bash
-  validations:
-    required: true
+    validations:
+      required: true
   # SCREENSHOT
   - type: textarea
     id: screenshot
