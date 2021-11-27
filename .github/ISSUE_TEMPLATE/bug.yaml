@@ -114,11 +114,11 @@ body:
       label: Verbose output2
       description: "Paste your verbose output here:"
       value: |
-        1.
-        2.
-        3.
+        1. 
+        2. 
+        3. 
         ...
-      render: bash
+      render: markdown
     validations:
       required: false
   # SCREENSHOT
