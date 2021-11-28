@@ -25,6 +25,7 @@ body:
   - type: dropdown
     id: classification
     attributes:
+      default: Performance
       label: What type of issue is this?
       multiple: false
       options:
