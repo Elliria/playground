@@ -1,8 +1,9 @@
 ---
-name: Bug
+name: Bug Report
 description: >
-  Thank you for taking the time to help out this project!
-  Click the "Get started" button to file your bug report.
+  Found a bug? Answer a few questions in our bug report form to help us
+  solve the issue as quickly as possible. Click the "Get started" button
+  when you're ready to begin.
 labels: [bug, help wanted]
 assignees: Elliria
 body:
@@ -12,12 +13,13 @@ body:
     attributes:
       label: Has this issue already been reported?
       description: >
-        "Please [check](https://github.com/Elliria/hello-world/issues)
-        if a bug report already exists for your issue. If there is
-        one, consider contributing to it instead. If there isn't
-        one, check this box and continue filling out this form."
+        If someone else has [already filled out a bug report for the
+        issue you're having](https://github.com/Elliria/hello-world/issues),
+        consider contributing to that report instead of creating a new
+        one. If your issue hasn't been reported yet, check this box and
+        continue filling out this form.
       options:
-        - label: "I have searched through the existing issues."
+        - label: I have searched through the existing issues.
           required: true
   # CLASSIFICATION
   - type: dropdown
@@ -35,21 +37,6 @@ body:
         - Usability
     validations:
       required: false
-  # REPRODUCIBILITY
-  - type: dropdown
-    id: reproducibility
-    attributes:
-      label: Can this be reproduced?
-      description: null
-      multiple: false
-      options:
-        - Always
-        - Rarely
-        - Sometimes
-        - Unable
-        - Unknown
-    validations:
-      required: false
   # LINUX DISTRIBUTION
   - type: textarea
     id: linux-distribution
@@ -64,8 +51,23 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: "Summary:"
-      description: Provide a brief summary of the issue.
+      label: Can you briefly describe the issue?
+      description: Provide a short summary of the problem.
+    validations:
+      required: false
+  # REPRODUCIBILITY
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Can the issue be reproduced?
+      description: null
+      multiple: false
+      options:
+        - Always
+        - I didn't try
+        - Rarely
+        - Sometimes
+        - Unable
     validations:
       required: false
   # STEPS TO RREPRODUCE
@@ -74,19 +76,19 @@ body:
     attributes:
       label: What are the steps to reproduce the issue?
       description: >
-        "Provide the steps that need to be taken to reproduce the
-        behavior. For example:"
+        Provide the steps that need to be taken to reproduce the
+        behavior. For example:
       placeholder: |
         1. Do this.
         2. Then do that.
-        3. Then do this other thing.
+        3. Etc.
     validations:
       required: false
   # EXPECTED RESULT
   - type: textarea
     id: expected-result
     attributes:
-      label: "Expected result:"
+      label: What should have happened?
       description: Provide a description of what you expected to happen.
     validations:
       required: false
@@ -94,41 +96,29 @@ body:
   - type: textarea
     id: actual-result
     attributes:
-      label: "Actual result:"
+      label: What actually happened?
       description: Provide a description of what actually happened.
-    validations:
-      required: false
-  # VERBOSE OUTPUT
-  - type: textarea
-    id: verbose-output
-    attributes:
-      label: Verbose output
-      description: "Paste your verbose output here"
-      render: bash
-    validations:
-      required: false
-  # VERBOSE OUTPUT2
-  - type: textarea
-    id: verbose-output2
-    attributes:
-      label: Verbose output2
-      description: "Paste your verbose output here:"
-      value: |
-        1. 
-        2. 
-        3. 
-        ...
-      render: markdown
     validations:
       required: false
   # SCREENSHOT
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot
+      label: Do you have screenshots?
       description: >
-        Include one or more screenshots of the issue, if applicable,
-        by dragging the image file(s) here to help with debugging.
+        If you have one or more screenshots of the issue, include
+        them by dragging the image file(s) here:
+    validations:
+      required: false
+  # VERBOSE OUTPUT
+  - type: textarea
+    id: verbose-output
+    attributes:
+      label: Can you provide the output of the command that you ran?
+      description: >
+        Open a terminal window, run your command, copy the output from
+        the terminal window and paste it here:
+      render: bash
     validations:
       required: false
   # NOTES
