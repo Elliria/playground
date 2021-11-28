@@ -27,12 +27,13 @@ body:
     attributes:
       label: What type of issue is this?
       multiple: false
+      selection: Performance
       options:
         - Bug
         - Documentation
         - Enhancement
         - Feature (new)
-        - Performance (default)
+        - Performance
         - Question
         - Usability
     validations:
