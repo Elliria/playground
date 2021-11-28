@@ -32,10 +32,9 @@ body:
         - Documentation
         - Enhancement
         - Feature (new)
-        - Performance
+        - Performance (default)
         - Question
         - Usability
-        default: Performance
     validations:
       required: false
   # LINUX DISTRIBUTION
