@@ -5,7 +5,6 @@ description: >
   solve the issue as quickly as possible. Click the "Get started" button
   when you're ready to begin.
 labels: [new]
-assignees: ""
 body:
   # EXISTING ISSUE
   - type: checkboxes
