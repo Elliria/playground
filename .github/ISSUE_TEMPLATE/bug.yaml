@@ -26,7 +26,6 @@ body:
     attributes:
       label: What type of issue is this?
       multiple: false
-      placeholder: Performance
       options:
         - Bug
         - Documentation
