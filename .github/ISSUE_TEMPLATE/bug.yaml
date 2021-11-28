@@ -25,7 +25,6 @@ body:
   - type: dropdown
     id: classification
     attributes:
-      default: Performance
       label: What type of issue is this?
       multiple: false
       options:
@@ -36,6 +35,7 @@ body:
         - Performance
         - Question
         - Usability
+        default: Performance
     validations:
       required: false
   # LINUX DISTRIBUTION
