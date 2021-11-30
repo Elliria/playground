@@ -125,9 +125,9 @@ body:
   id: test
   attributes:
     value: |
-      - [ ] one
-      - [ ] two
-      - [ ] three
+      [ ] one
+      [ ] two
+      [ ] three
       
   # NOTES
   - type: textarea
