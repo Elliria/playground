@@ -120,16 +120,6 @@ body:
       render: bash
     validations:
       required: false
-  # TEST
-  - type: markdown
-    id: test
-    attributes:
-      value: |
-        - [ ] one
-        - [ ] two
-        - [ ] three
-    validations:
-      required: false
   # NOTES
   - type: textarea
     id: notes
