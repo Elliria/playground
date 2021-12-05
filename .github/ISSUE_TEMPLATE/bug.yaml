@@ -11,11 +11,6 @@ body:
     attributes:
       value: "## Welcome!"
 
-  # TEST
-  - type: html
-    attributes:
-      value: "<h1>Test</h1>"
-
   # EXISTING ISSUE
   - type: checkboxes
     id: existing-issue
