@@ -17,7 +17,7 @@ body:
         - [ ] foo
         - [ ] Bar :tada:
     validations:
-      required: false
+      required: true
 
   # INTRODUCTION
   - type: markdown
