@@ -8,11 +8,11 @@ labels: [new]
 body:
   # TEST
   - type: markdown
-  value: "## Welcome!"
+    value: "## Welcome!"
 
   # TEST
   - type: html
-  value: "<h1>Test</h1>"
+    value: "<h1>Test</h1>"
 
 
   # EXISTING ISSUE
