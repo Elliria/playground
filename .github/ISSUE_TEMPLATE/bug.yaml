@@ -7,20 +7,24 @@ description: >
 labels: [new]
 body:
 
-  # MARKDOWN WITH FOOTNOTES:
-  - type: markdown
-    id: markdown_with_footnotes
-    attributes:
-      value: |
-        This is the first footnote[^1].
-        This is the second footnote[^2].  
-        This is the third footnote[^note].
-        [^1]: These are the contents of a simple footnote.
-        [^2]: These are the contents of a multi-line footnote. Newlines should be indented
-          with 2 spaces.  
-        [^note]: These are the contents of a named footnote. Named
-          footnotes render with numbers just like simple footnotes, but
-          the names allow for easier identification and linking.
+# MARKDOWN TEST:
+- type: markdown
+  id: markdown_test_of_tables
+  attributes:
+    value: |
+      | Column 1 Heading  | Column 2 Heading |
+      | ------------- | ------------- |
+      | Column 1 cell  | Column 2 cell  |
+      | Column 1 cell  | Column 2 cell  |
+      | Column 1 cell  | Column 2 cell  |
+
+      | Left-aligned | Center-aligned | Right-aligned |
+      | :---         |     :---:      |          ---: |
+      | one | two | three |
+      | one | two | three |
+      | one | two | three |
+  validations:
+    required: false
 
   # INTRODUCTION
   - type: markdown
