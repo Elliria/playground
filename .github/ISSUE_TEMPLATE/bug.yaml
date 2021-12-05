@@ -14,8 +14,9 @@ body:
     attributes:
       label: What kinds of M&Ms do you like?
       description: You may select more than one.
+      multiple: false
       options:
-        - label: Orange (required. Everyone likes orange M&Ms.)
+        - label: Orange (required)
           required: true
         - label: Green
     validations:
