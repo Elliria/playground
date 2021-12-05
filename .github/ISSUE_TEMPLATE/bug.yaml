@@ -13,7 +13,7 @@ body:
     attributes:
       value: |
         <style>p{color:red;}</style>
-        *foo*
+        <p>foo</p>
     validations:
       required: false
 
