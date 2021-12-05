@@ -16,12 +16,11 @@ body:
       description: You may select more than one.
       multiple: false
       options:
-        - label: Orange (required)
+        - Orange
           required: true
-        - label: Green
+        - Green
     validations:
       required: false
-
 
   # INTRODUCTION
   - type: markdown
