@@ -6,10 +6,16 @@ description: >
   when you're ready to begin.
 labels: [new]
 body:
-  # TEST
+
+  # INTRODUCTION
   - type: markdown
+    id: introduction
     attributes:
-      value: "## Welcome!"
+      value: |
+        ## Welcome!
+        This type of entry can be used to communicate with the user without asking for any input.
+    validations:
+      required: false
 
   # EXISTING ISSUE
   - type: checkboxes
