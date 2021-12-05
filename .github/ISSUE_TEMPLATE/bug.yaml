@@ -7,24 +7,14 @@ description: >
 labels: [new]
 body:
 
-  # MARKDOWN TEST:
-  - type: markdown
-    id: markdown_test_of_tables
-    attributes:
-      value: |
-        | Column 1 Heading  | Column 2 Heading |
-        | ------------- | ------------- |
-        | Column 1 cell  | Column 2 cell  |
-        | Column 1 cell  | Column 2 cell  |
-        | Column 1 cell  | Column 2 cell  |
-        
-        | Left-aligned | Center-aligned | Right-aligned |
-        | :---         |     :---:      |          ---: |
-        | one | two | three |
-        | one | two | three |
-        | one | two | three |
-    validations:
-      required: false
+# MARKDOWN WITH EMOJIS:
+- type: markdown
+  id: markdown_with_emojis
+  attributes:
+    value: >
+      Type an emoji name from the [emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) between two colons to insert an emoji in your Markdown. For example, this is a heart: :heart:
+  validations:
+    required: false
 
   # INTRODUCTION
   - type: markdown
