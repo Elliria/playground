@@ -12,8 +12,7 @@ body:
     id: test
     attributes:
       value: |
-        <style>p{color:red;}</style>
-        <p>foo</p>
+        <style="color:red;">foo</style>
     validations:
       required: false
 
