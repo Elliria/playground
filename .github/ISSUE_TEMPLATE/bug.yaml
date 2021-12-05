@@ -7,15 +7,6 @@ description: >
 labels: [new]
 body:
 
-  # TEST
-  - type: markdown
-    id: test
-    attributes:
-      value: |
-        <style="color:red;">foo</style>
-    validations:
-      required: false
-
   # INTRODUCTION
   - type: markdown
     id: introduction
