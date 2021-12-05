@@ -7,15 +7,12 @@ description: >
 labels: [new]
 body:
 
-  # MARKDOWN WITH TASK LIST:
+  # MARKDOWN WITH MENTION:
   - type: markdown
-    id: markdown_with_task_list
+    id: markdown_with_mention
     attributes:
       value: |
-        To create a task list, preface list items with a regular space character followed by [ ]. To mark a task as complete, use [x].
-        - [x] #1
-        - [ ] foo
-        - [ ] Bar :tada:
+        You can mention a GitHub member with an at symbol followed by their name. For instance, to mention myself, I would use @Elliria.
     validations:
       required: true
 
