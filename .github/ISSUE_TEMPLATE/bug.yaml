@@ -13,6 +13,7 @@ body:
     attributes:
       value: |
         You can mention a GitHub member with an at symbol followed by their name. For instance, to mention myself, I would use @Elliria.
+        You can mention a bug by number. For example: [#1]
     validations:
       required: true
 
