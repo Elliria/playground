@@ -7,19 +7,18 @@ description: >
 labels: [new]
 body:
 
-# MARKDOWN TEST:
-- type: markdown
-  id: markdown_test_of_tables
-  attributes:
-    value: |
-      | Column 1 Heading  | Column 2 Heading |
-      | ------------- | ------------- |
-      | Column 1 cell  | Column 2 cell  |
-      | Column 1 cell  | Column 2 cell  |
-      | Column 1 cell  | Column 2 cell  |
-  render: markdown
-  validations:
-    required: false
+  # MARKDOWN TEST:
+  - type: markdown
+    id: markdown_test_of_tables
+    attributes:
+      value: |
+        | Column 1 Heading  | Column 2 Heading |
+        | ------------- | ------------- |
+        | Column 1 cell  | Column 2 cell  |
+        | Column 1 cell  | Column 2 cell  |
+        | Column 1 cell  | Column 2 cell  |
+    validations:
+      required: false
 
   # INTRODUCTION
   - type: markdown
