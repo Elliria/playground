@@ -14,11 +14,13 @@ body:
     attributes:
       label: What kinds of M&Ms do you like?
       description: You may select more than one.
-      multiple: false
+      multiple: true
       options:
-        - Orange
+        - label: Orange
           required: true
-        - Green
+        - label: Green
+        - label: Red
+        - label: Yellow
     validations:
       required: false
 
