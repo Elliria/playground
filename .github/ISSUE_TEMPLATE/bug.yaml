@@ -17,12 +17,6 @@ body:
       | Column 1 cell  | Column 2 cell  |
       | Column 1 cell  | Column 2 cell  |
       | Column 1 cell  | Column 2 cell  |
-
-      | Left-aligned | Center-aligned | Right-aligned |
-      | :---         |     :---:      |          ---: |
-      | one | two | three |
-      | one | two | three |
-      | one | two | three |
   validations:
     required: false
 
