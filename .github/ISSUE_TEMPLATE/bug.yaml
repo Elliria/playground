@@ -7,17 +7,6 @@ description: >
 labels: [new]
 body:
 
-  # MARKDOWN WITH MENTION:
-  - type: markdown
-    id: markdown_with_mention
-    attributes:
-      value: |
-        You can mention a GitHub member with an at symbol followed by their name. For instance, to mention myself, I would use @Elliria.
-        You can mention a bug by number. For example: [test](https://github.com/Elliria/hello-world/issues/2)
-        You can mention a bug by number. For example: #02
-    validations:
-      required: true
-
   # INTRODUCTION
   - type: markdown
     id: introduction
