@@ -18,8 +18,8 @@ body:
         - label: Orange (required. Everyone likes orange M&Ms.)
           required: true
         - label: Green
-      validations:
-        required: false
+    validations:
+      required: false
 
 
   # INTRODUCTION
