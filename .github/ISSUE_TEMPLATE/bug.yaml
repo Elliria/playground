@@ -4,6 +4,11 @@ description: >
   Found a bug? Answer a few questions in our bug report form to help us
   solve the issue as quickly as possible. Click the "Get started" button
   when you're ready to begin.
+  
+  BTW: Whenever you have a question (as opposed to an issue) it's better to post it on our list or on Gitter. The list is more user oriented whereas more technical questions will get a better answer on Gitter.
+
+  Both of these venues have a number of active users, so you are likely to get more, better, and faster answers on them than here on GitHub where only our very busy developers and a few users see the posts. We also prefer to have the developers developing rather than taking time to answer questions and manage issues that the user community could handle for them.
+  
 labels: [new]
 body:
 
