@@ -3,8 +3,9 @@ name: Bug Report
 description: >
   Found a bug? Answer a few questions in our bug report form to help us
   solve the issue as quickly as possible. Click the "Get started" button
-  when you're ready to begin....Blah....Blah.
+  when you're ready to begin.
   
+  Blah.
 labels: [new]
 body:
 
