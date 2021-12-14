@@ -1,0 +1,18 @@
+---
+name: Bug Report
+description: >
+  Found a bug? Answer a few questions in our bug report form to help us
+  solve the issue as quickly as possible. Click the "Get started" button
+  when you're ready to begin.  
+labels: [new]
+body:
+
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        ## Welcome!
+        This is a test to see if this version of the issue template will be used by default based on its name and location.
+    validations:
+      required: false
+...
