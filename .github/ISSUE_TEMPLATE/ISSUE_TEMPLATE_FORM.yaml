@@ -1,0 +1,161 @@
+---
+name: Bug Report
+description: >
+  Found a bug? Answer a few questions in our bug report form to help us
+  solve the issue as quickly as possible. Click the "Get started" button
+  when you're ready to begin.
+labels: [new]
+body:
+
+
+  # TEST:
+  - type: checkboxes
+    id: test_of_default_selection_for_options
+    attributes:
+      label: What kinds of M&Ms do you like?
+      description: You may select more than one.
+      options:
+        - label: Orange
+          required: true
+        - label: Green
+        - label: Red
+        - label: Yellow
+    validations:
+      required: false
+
+  # INTRODUCTION
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        ## Welcome!
+        This type of entry can be used to communicate with the user without asking for any input.
+    validations:
+      required: false
+
+  # EXISTING ISSUE
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Has this issue already been reported?
+      description: >
+        If someone else has [already filled out a bug report for the
+        issue you're having](https://github.com/Elliria/hello-world/issues),
+        consider contributing to that report instead of creating a new
+        one. If your issue hasn't been reported yet, check this box and
+        continue filling out this form.
+      options:
+        - label: I have searched through the existing issues.
+          required: true
+  # CLASSIFICATION
+  - type: dropdown
+    id: classification
+    attributes:
+      label: What type of issue is this?
+      multiple: false
+      options:
+        - Bug
+        - Documentation
+        - Enhancement
+        - Interface
+        - Performance
+        - Question
+        - Usability
+    validations:
+      required: false
+  # LINUX DISTRIBUTION
+  - type: textarea
+    id: linux-distribution
+    attributes:
+      label: Which Linux distribution did you use?
+      description: >
+        Provide information about your Linux distribution and its
+        release or version number.
+    validations:
+      required: false
+  # SUMMARY
+  - type: textarea
+    id: summary
+    attributes:
+      label: Can you briefly describe the issue?
+      description: Provide a short summary of the problem.
+    validations:
+      required: false
+  # REPRODUCIBILITY
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Can the issue be reproduced?
+      description: null
+      multiple: false
+      options:
+        - Always
+        - I didn't try
+        - Rarely
+        - Sometimes
+        - Unable
+    validations:
+      required: false
+  # STEPS TO RREPRODUCE
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: What are the steps to reproduce the issue?
+      description: >
+        Provide the steps that need to be taken to reproduce the
+        behavior. For example:
+      placeholder: |
+        1. Do this.
+        2. Then do that.
+        3. Etc.
+    validations:
+      required: false
+  # EXPECTED RESULT
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: What should have happened?
+      description: Provide a description of what you expected to happen.
+    validations:
+      required: false
+  # ACTUAL RESULT
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: What actually happened?
+      description: Provide a description of what actually happened.
+    validations:
+      required: false
+  # SCREENSHOT
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Do you have screenshots?
+      description: >
+        If you have one or more screenshots of the issue, include
+        them by dragging the image file(s) here:
+    validations:
+      required: false
+  # VERBOSE OUTPUT
+  - type: textarea
+    id: verbose-output
+    attributes:
+      label: Can you provide the output of the command that you ran?
+      description: >
+        Open a terminal window, run your command, copy the output from
+        the terminal window and paste it here:
+      render: bash
+    validations:
+      required: false
+  # NOTES
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: >
+        Describe any debugging steps you've taken, a workaround you've
+        figured out, or any other information you think we might need,
+        including links or references.
+    validations:
+      required: false
+...
