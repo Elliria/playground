@@ -164,7 +164,7 @@ body:
     attributes:
       label: Test - Is this dropdown required?
       description: >
-        It should be and isn't.
+        It should be and isn't even though GitHub gives it a red asterisk as though it's required.
       multiple: false
       options:
         - Bug
