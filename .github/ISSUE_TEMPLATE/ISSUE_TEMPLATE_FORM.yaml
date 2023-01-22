@@ -144,35 +144,32 @@ body:
         including links or references.
     validations:
       required: false
-  # TEST OF REQUIRED CHECKBOXES
+
+  # TEST OF REQUIRED QUESTION WITH CHECK-BOXES
   - type: checkboxes
-    id: test_of_required_checkboxes
+    id: test_of_required_question_with_check_boxes
     attributes:
-      label: Test - Is this checkbox required?
+      label: Test - Is this question with check-boxes required?
       description: >
         It should be and isn't.
       options:
-        - label: Red
-        - label: Yellow
-        - label: Blue        
+        - label: One
+        - label: Two
+        - label: Three
     validations:
       required: true
 
-  # TEST OF REQUIRED DROPDOWN
+  # TEST OF REQUIRED QUESTION WITH A DROP-DOWN MENU
   - type: dropdown
-    id: test_of_required_dropdown
+    id: test_of_required_question_with_a_drop_down_menu
     attributes:
-      label: Test - Is this dropdown required?
+      label: Test - Is this question with a drop-down menu required?
       description: >
         It should be and isn't even though GitHub gives it a red asterisk as though it's required.
       options:
-        - Bug
-        - Documentation
-        - Enhancement
-        - Interface
-        - Performance
-        - Question
-        - Usability
+        - One
+        - Two
+        - Three
     validations:
       required: true
 ...
