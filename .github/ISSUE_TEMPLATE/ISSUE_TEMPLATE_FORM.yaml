@@ -175,24 +175,4 @@ body:
         - Usability
     validations:
       required: true
-
-  # TEST OF REQUIRED DROPDOWN WITH A REQUIRED OPTION
-  - type: dropdown
-    id: test_of_required_dropdown_with_a_required_option
-    attributes:
-      label: Is this dropdown also required?
-      description: >
-        It should be and isn't.
-      multiple: false
-      options:
-        - Bug
-        - Documentation
-        - Enhancement
-        required: true
-        - Interface
-        - Performance
-        - Question
-        - Usability
-    validations:
-      required: true
 ...
