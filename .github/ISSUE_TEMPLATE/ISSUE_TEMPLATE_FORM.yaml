@@ -46,7 +46,7 @@ body:
         - Question
         - Usability
     validations:
-      required: false
+      required: true
   # LINUX DISTRIBUTION
   - type: textarea
     id: linux-distribution
