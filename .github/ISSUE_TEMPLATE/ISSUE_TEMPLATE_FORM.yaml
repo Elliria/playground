@@ -151,7 +151,7 @@ body:
     attributes:
       label: Test - Is this question with check-boxes required?
       description: >
-        It should be and isn't.
+        It should be, but isn't.
       options:
         - label: One
         - label: Two
@@ -165,7 +165,7 @@ body:
     attributes:
       label: Test - Is this question with a drop-down menu required?
       description: >
-        It should be and isn't, but GitHub gives it a red asterisk as though it is.
+        It should be, but isn't, and GitHub gives it a red asterisk as though it is.
       options:
         - One
         - Two
