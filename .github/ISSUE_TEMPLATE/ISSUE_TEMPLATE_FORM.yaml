@@ -142,4 +142,57 @@ body:
         including links or references.
     validations:
       required: false
+  # TEST OF REQUIRED CHECKBOXES
+  - type: checkboxes
+    id: test_of_required_checkboxes
+    attributes:
+      label: Is this checkbox required?
+      description: >
+        It should be and isn't.
+      options:
+        - label: Orange
+        - label: Green
+        - label: Red
+        - label: Yellow        
+    validations:
+      required: true
+
+  # TEST OF REQUIRED DROPDOWN
+  - type: dropdown
+    id: test_of_required_dropdown
+    attributes:
+      label: Is this dropdown required?
+      description: >
+        It should be and isn't.
+      multiple: false
+      options:
+        - Bug
+        - Documentation
+        - Enhancement
+        - Interface
+        - Performance
+        - Question
+        - Usability
+    validations:
+      required: true
+
+  # TEST OF REQUIRED DROPDOWN WITH A REQUIRED OPTION
+  - type: dropdown
+    id: test_of_required_dropdown_with_a_required_option
+    attributes:
+      label: Is this dropdown also required?
+      description: >
+        It should be and isn't.
+      multiple: false
+      options:
+        - Bug
+        - Documentation
+        - Enhancement
+        required: true
+        - Interface
+        - Performance
+        - Question
+        - Usability
+    validations:
+      required: true
 ...
