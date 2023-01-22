@@ -165,7 +165,7 @@ body:
     attributes:
       label: Test - Is this question with a drop-down menu required?
       description: >
-        It should be and isn't even though GitHub gives it a red asterisk as though it's required.
+        It should be and isn't, but GitHub gives it a red asterisk as though it is.
       options:
         - One
         - Two
