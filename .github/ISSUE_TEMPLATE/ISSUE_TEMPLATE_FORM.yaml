@@ -162,11 +162,10 @@ body:
 
   # TEST OF REQUIRED DROPDOWN
   - type: dropdown
-    id: test_of_rrequired_dropdown
+    id: test_of_required_dropdown
     attributes:
       label: Is this dropdown required?
-      description: It should be and isn't. GitHub will 
-      not honor the required validation on dropdowns.
+      description: It should be and isn't.
       multiple: false
       options:
         - Bug
@@ -181,11 +180,10 @@ body:
 
   # TEST OF REQUIRED DROPDOWN
   - type: dropdown
-    id: test_of_rrequired_dropdown_with_a_requiredoption
+    id: test_of_required_dropdown_with_a_required_option
     attributes:
       label: Is this dropdown required?
-      description: It should be and isn't. GitHub will 
-      not honor the required validation on dropdowns.
+      description: It should be and isn't.
       multiple: false
       options:
         - Bug
@@ -198,5 +196,4 @@ body:
         - Usability
     validations:
       required: true
-
 ...
