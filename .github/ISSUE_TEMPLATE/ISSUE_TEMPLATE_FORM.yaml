@@ -7,21 +7,6 @@ description: >
 labels: [new]
 body:
 
-
-  # TEST:
-  - type: checkboxes
-    id: test_of_default_selection_for_options
-    attributes:
-      label: What kinds of M&Ms do you like?
-      description: You may select more than one.
-      options:
-        - label: Orange
-        - label: Green
-        - label: Red
-        - label: Yellow        
-    validations:
-      required: true
-
   # INTRODUCTION
   - type: markdown
     id: introduction
@@ -157,4 +142,17 @@ body:
         including links or references.
     validations:
       required: false
+  # TEST:
+  - type: checkboxes
+    id: test_of_default_selection_for_options
+    attributes:
+      label: What kinds of M&Ms do you like?
+      description: You may select more than one.
+      options:
+        - label: Orange
+        - label: Green
+        - label: Red
+        - label: Yellow        
+    validations:
+      required: true
 ...
