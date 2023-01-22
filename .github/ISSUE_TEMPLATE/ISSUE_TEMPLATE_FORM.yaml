@@ -151,6 +151,7 @@ body:
       label: Test - Is this checkbox required?
       description: >
         It should be and isn't.
+      multiple: false
       options:
         - label: Red
         - label: Yellow
@@ -165,7 +166,6 @@ body:
       label: Test - Is this dropdown required?
       description: >
         It should be and isn't even though GitHub gives it a red asterisk as though it's required.
-      multiple: false
       options:
         - Bug
         - Documentation
