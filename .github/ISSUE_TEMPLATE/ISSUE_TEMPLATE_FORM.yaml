@@ -151,7 +151,6 @@ body:
       label: Test - Is this checkbox required?
       description: >
         It should be and isn't.
-      multiple: false
       options:
         - label: Red
         - label: Yellow
