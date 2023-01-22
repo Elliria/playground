@@ -142,7 +142,7 @@ body:
         including links or references.
     validations:
       required: false
-  # TEST OF REQUIRED CHECKBOXES:
+  # TEST OF REQUIRED CHECKBOXES
   - type: checkboxes
     id: test_of_required_checkboxes
     attributes:
