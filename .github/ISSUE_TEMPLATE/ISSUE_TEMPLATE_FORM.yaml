@@ -18,8 +18,7 @@ body:
         - label: Orange
         - label: Green
         - label: Red
-        - label: Yellow
-        multiple: true
+        - label: Yellow        
     validations:
       required: true
 
