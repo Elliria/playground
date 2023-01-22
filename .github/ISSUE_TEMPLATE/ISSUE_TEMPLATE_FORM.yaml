@@ -148,7 +148,7 @@ body:
   - type: checkboxes
     id: test_of_required_checkboxes
     attributes:
-      label: Test: Is this checkbox required?
+      label: Test - Is this checkbox required?
       description: >
         It should be and isn't.
       options:
@@ -162,7 +162,7 @@ body:
   - type: dropdown
     id: test_of_required_dropdown
     attributes:
-      label: Test: Is this dropdown required?
+      label: Test - Is this dropdown required?
       description: >
         It should be and isn't.
       multiple: false
