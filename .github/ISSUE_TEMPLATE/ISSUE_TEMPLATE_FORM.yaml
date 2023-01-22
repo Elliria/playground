@@ -189,7 +189,6 @@ body:
         - Bug
         - Documentation
         - Enhancement
-        required: true
         - Interface
         - Performance
         - Question
