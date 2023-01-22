@@ -38,6 +38,7 @@ body:
       label: What type of issue is this?
       multiple: false
       options:
+        - No reply
         - Bug
         - Documentation
         - Enhancement
@@ -73,6 +74,7 @@ body:
       description: null
       multiple: false
       options:
+        - No reply
         - Always
         - I didn't try
         - Rarely
@@ -80,7 +82,7 @@ body:
         - Unable
     validations:
       required: false
-  # STEPS TO RREPRODUCE
+  # STEPS TO REPRODUCE
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -146,14 +148,13 @@ body:
   - type: checkboxes
     id: test_of_required_checkboxes
     attributes:
-      label: Is this checkbox required?
+      label: Test: Is this checkbox required?
       description: >
         It should be and isn't.
       options:
-        - label: Orange
-        - label: Green
         - label: Red
-        - label: Yellow        
+        - label: Yellow
+        - label: Blue        
     validations:
       required: true
 
@@ -161,7 +162,7 @@ body:
   - type: dropdown
     id: test_of_required_dropdown
     attributes:
-      label: Is this dropdown required?
+      label: Test: Is this dropdown required?
       description: >
         It should be and isn't.
       multiple: false
