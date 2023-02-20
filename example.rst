@@ -42,8 +42,6 @@ Here are some other Table of Contents varieties you could use:
     :local:
     :backlinks: none
 
-Note that when you use a Table of Contents, all sub-headings are turned blue. Otherwise, they would be black.
-
 This is level 1 sub-heading 1
 =============================
 
