@@ -172,4 +172,48 @@ body:
         - Three
     validations:
       required: true
+
+  # TEST OF LABELS CHECKBOXES
+  
+  - type: checkboxes
+    id: checkbox-labels-test
+    attributes:
+      label: Which label(s) would you suggest for this issue?
+      description: You may select more than one.
+      options:
+        - label: 0.96.1
+        - label: autokey triggers
+        - label: autokey-gtk
+        - label: autokey-qt
+        - label: beta
+        - label: bug
+        - label: cricital
+        - label: development
+        - label: documentation
+        - label: duplicate,
+        - label: easy fix
+        - label: enhancement
+        - label: good first issue
+        - label: help-wanted
+        - label: installation/configuratioon
+        - label: invalid
+        - label: low-priority
+        - label: phrase expansion
+        - label: scripting
+        - label: technical debt
+        - label: unsupported version
+        - label: upstream bug
+        - label: user interface
+        - label: user support
+        - label: wontfix
+    validations:
+      required: false
+
+
+
+
+
+
+
+
 ...
