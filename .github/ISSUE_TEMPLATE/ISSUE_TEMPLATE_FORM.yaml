@@ -195,7 +195,7 @@ body:
         - label: enhancement
         - label: good first issue
         - label: help-wanted
-        - label: installation/configuratioon
+        - label: installation/configuration
         - label: invalid
         - label: low-priority
         - label: phrase expansion
