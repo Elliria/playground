@@ -187,7 +187,7 @@ body:
         - label: autokey-qt
         - label: beta
         - label: bug
-        - label: cricital
+        - label: critical
         - label: development
         - label: documentation
         - label: duplicate,
