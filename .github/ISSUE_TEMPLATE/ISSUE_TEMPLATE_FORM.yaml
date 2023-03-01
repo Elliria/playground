@@ -190,7 +190,7 @@ body:
         - label: critical
         - label: development
         - label: documentation
-        - label: duplicate,
+        - label: duplicate
         - label: easy fix
         - label: enhancement
         - label: good first issue
