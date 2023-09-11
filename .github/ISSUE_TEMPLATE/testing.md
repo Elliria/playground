@@ -1,5 +1,5 @@
 ---
-name: Documentation
+name: Testing
 about: Found something in our docs that needs attention?
 title: '[Docs]: '
 labels: documentation
