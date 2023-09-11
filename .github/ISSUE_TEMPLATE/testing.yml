@@ -1,0 +1,34 @@
+---
+name: Testing Bug Report
+description: >
+  Found a bug? Answer a few questions in our bug report form to help us
+  solve the issue as quickly as possible. Click the "Get started" button
+  when you're ready to begin.
+labels: [new]
+body:
+
+  # INTRODUCTION
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        ## Welcome!
+        This type of entry can be used to communicate with the user without asking for any input.
+    validations:
+      required: false
+
+  # EXISTING ISSUE
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Has this issue already been reported?
+      description: >
+        If someone else has [already filled out a bug report for the
+        issue you're having](https://github.com/Elliria/hello-world/issues),
+        consider contributing to that report instead of creating a new
+        one. If your issue hasn't been reported yet, check this box and
+        continue filling out this form.
+      options:
+        - label: I have searched through the existing issues.
+          required: true
+...
