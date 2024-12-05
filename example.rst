@@ -125,4 +125,4 @@ this
   : is a definition list
 
 Unnecessary line of text 1.
-Unnecessary line of text 2.
+
