@@ -1,2 +1,4 @@
 # Changes
-* Boy, is this going to cause a conflict.
+<!-- ADD NEW ENTRIES DIRECTLY BENEATH THIS ANCHOR -->
+* Another commit to test if PRs conflict when logged in this way.
+* Initial commit.
